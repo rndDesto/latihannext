@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import Button from 'elements/Button'
+import Button from '@/elements/Button'
 import Heading from '@/elements/Heading'
 
 const about = () => {
