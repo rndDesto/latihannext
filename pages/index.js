@@ -1,10 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Link from 'next/link'
 import styles from 'styles/Home.module.css'
-import logo from 'assets/logo_logee.png'
-
-
 
 export default function Home() {
   return (
@@ -15,12 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div>
-      <Image src={logo} alt="Logee" />
-      </div>
-
-
-    <p>Next app</p>
+    <h1>Home</h1>
     <Link href="/about">about page</Link>
     </div>
   )
