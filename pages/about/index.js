@@ -1,12 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
-import Button from 'components/Button'
+import Button from 'elements/Button'
+import Heading from '@/elements/Heading'
 
 const about = () => {
   return (
     <>
-    <h1>About Page</h1>
-    
+    <Heading title='About Page'/>
     <Link href="/">back to home</Link>
     <Button />
     </>
